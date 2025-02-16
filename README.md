@@ -51,3 +51,10 @@
 
 ## Get movies given a title
     http://127.0.0.1:5000/movies?title=Boss
+
+
+## Docker Compose
+
+    docker compose --file docker-compose.yml up --build -d
+
+    docker-compose down -v    # Remove existing volume
